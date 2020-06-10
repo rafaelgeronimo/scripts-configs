@@ -46,7 +46,7 @@ sudo apt-get install code -y
 
 echo "Installing ZSH"
 sudo apt install zsh -y
-sudo chsh -s zsh
+sudo chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussel/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 

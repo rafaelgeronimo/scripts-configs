@@ -54,3 +54,16 @@ sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/
 sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 echo "NÃO SE ESQUEÇA DE INSTALAR A FONTE FURAMONO DO SITE DO GOOGLE FONTS"
+wget http://rafaelgeronimo.com/fonts/FiraCode-Bold.ttf
+wget http://rafaelgeronimo.com/fonts/FiraCode-Light.ttf
+wget http://rafaelgeronimo.com/fonts/FiraCode-Medium.ttf
+wget http://rafaelgeronimo.com/fonts/FiraCode-Regular.ttf
+wget http://rafaelgeronimo.com/fonts/FiraCode-SemiBold.ttf
+wget http://rafaelgeronimo.com/fonts/FiraCode-VariableFont_wght.ttf
+wget http://rafaelgeronimo.com/fonts/FiraMono-Bold.ttf
+wget http://rafaelgeronimo.com/fonts/FiraMono-Medium.ttf
+wget http://rafaelgeronimo.com/fonts/FiraMono-Regular.ttf
+mkdir ~/.local/share/fonts
+mv *.ttf ~/.local/share/fonts
+
+fc-cache -f -v

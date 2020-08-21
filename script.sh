@@ -1,3 +1,8 @@
+## Script para configuração inicial do Linux logo após a instalação
+## Esse script irá instalar e/ou configurar: 
+## i3 - https://i3wm.org/
+## Curl, Git, VSCode, Oh My Zsh!
+
 echo "Instalando o i3"
 sudo apt install i3 -y
 sudo apt install i3blocks -y

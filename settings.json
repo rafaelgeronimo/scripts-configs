@@ -1,0 +1,24 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    // Fonte do terminal
+    "terminal.integrated.fontFamily": "MesloLGS NF, Bold",
+    
+    // Configuração de tamanho e família da fonte
+    "editor.tabSize": 2,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "editor.parameterHints.enabled": false,
+    "editor.rulers": [100, 130],
+
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+}

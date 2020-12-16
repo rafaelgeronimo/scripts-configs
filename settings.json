@@ -1,4 +1,7 @@
 // Configurações personalizadas do VS Code
+// Download das fonts: 
+// MesloLGS: https://github.com/romkatv/dotfiles-public/blob/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf
+// Fira Code: https://rafaelgeronimo.com/fonts/
 
 {
     "workbench.iconTheme": "material-icon-theme",

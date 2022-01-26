@@ -1,0 +1,19 @@
+img[alt~="Filmes"] {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://bj-share.info/static/common/caticons/filme.png);
+  /* width: 180px; */
+  /* height: 236px; */
+  padding-left: 50px;
+}
+
+img[alt~="Seriados"] {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(https://bj-share.info/static/common/caticons/seriadob2.png);
+  /* width: 180px; */
+  /* height: 236px; */
+  padding-left: 50px;
+}

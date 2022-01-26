@@ -64,7 +64,6 @@ a.rule_link {
 
 ul.collage_images {
 	padding: 0px;
-	//width: 590px;
 	border-collapse: collapse;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
@@ -76,11 +75,7 @@ ul.collage_images {
 }
 
 ul.collage_images li {
-//	border: none;
-//	float: left;
 	margin: 0;
-//	width: 25%;
-//	list-style: none;
 	list-style-type: none;
 }
 
